@@ -1,0 +1,19 @@
+{
+  "name": "mensa-bremen",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "dot": "^1.1.2",
+    "mkdir-recursive": "^0.4.0",
+    "netlify": "^1.2.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "node build.js",
+    "start": "node -e \"require('./main').run()\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Connor Lanigan",
+  "license": "ISC"
+}
